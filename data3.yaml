@@ -1,0 +1,32 @@
+shop: 
+  - name: Связной
+    url: https://www.svyaznoy.ru/
+    status: True
+categories:
+  - id: 224
+    name: Смартфоны
+  - id: 15
+    name: Аксессуары
+  - id: 1
+    name: Flash-накопители
+
+goods:
+  - id: 4216
+    category: 15
+    model: case
+    name: Чехол для смартфона
+    price: 1100
+    price_rrc: 1200
+    quantity: 5
+    parameters:
+      "Диагональ (дюйм)": 6.5
+      "Цвет": Серый
+  - id: 42167
+    category: 15
+    model: cable
+    name: Кабель 
+    price: 650
+    price_rrc: 700
+    quantity: 9
+    parameters:
+      "Тип": Type-C
